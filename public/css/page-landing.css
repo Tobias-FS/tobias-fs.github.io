@@ -1,0 +1,117 @@
+#page-landing {
+    background: #47D691;
+
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+#container {
+    margin: auto;
+
+    width: min(90%, 112rem);
+}
+
+header a {
+    color: #D5EFC8;
+    font-weight: bold;
+    line-height: 1.5;
+
+    text-decoration: none;
+}
+
+h1,
+.visit p {
+    height: 16vh;
+}
+
+#logo {
+    animation-delay: 50ms;
+    margin-bottom: 5rem;
+    
+}
+
+main h1 {
+    animation-delay: 150ms;
+    font-size: clamp(4rem, 8vw, 8.4rem);
+    font-family: Nunito;
+
+    /* margin-bottom: 6rem; */
+
+
+    color: #D5EFC8;
+}
+
+
+.visit p {
+    animation-delay: 200ms;
+}
+
+.visit a {
+    width: 8rem;
+    height: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+}
+
+
+@media (min-width: 861px) {
+    #container {
+        padding: 5rem 2rem;
+        background: url(../images/arvores.svg) no-repeat  89% 18% / clamp(15rem, 39vw, 49rem);
+        
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header a {
+        color: #D5EFC8;
+        font-weight: bold;
+        line-height: 1.5;
+
+        text-decoration: none;
+    }
+
+    h1, .visit p {
+        height: initial;
+        text-align: initial;
+    }
+
+    main h1 {
+        
+        font-weight: bold;
+        line-height: .88;
+        color: #D5EFC8;
+       
+        margin: clamp(2%, 12vh, 12%) 0px 12rem;
+        width: min(500px, 80%);
+    }
+
+    .visit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #0A5B36;
+
+        margin-top: 10rem;
+    }
+
+    .visit p {
+        font-size: 2.4rem;
+        line-height: 1.5;
+        width: clamp(20rem, 20vw, 30rem);
+    }
+
+    .visit a {
+        margin: initial;
+    }
+}
