@@ -135,7 +135,7 @@ main {
     border: none;
 
     cursor: pointer;
-    background:#3cdc8c;
+    background:#77c5dd;
 
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ main {
 }
 
 .primary-button:hover {
-    background: #36cf82;
+    background: #60b3cc;
 }
 
 .primary-button img {

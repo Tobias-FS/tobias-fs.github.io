@@ -16,10 +16,6 @@ fieldset {
     border: 0;
 }
 
-fieldset + fieldset {
-    margin-top: 8rem;
-}
-
 fieldset legend {
     width: 100%;
 
@@ -88,26 +84,6 @@ fieldset legend {
     height: 6.4rem;
     margin-top: 2.4rem;
     border-radius: 2rem;
-
-    cursor: pointer;
-}
-
-.new-upload {
-    position: relative;
-}
-
-.new-upload + .new-upload {
-    margin-top: 2.4rem;
-}
-.new-upload span {
-    position: absolute;
-    right: 12px;
-    bottom: 14px;
-    background: #FFFFFF;
-    border: 1px solid #D3E2E5;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: .6rem;
 
     cursor: pointer;
 }

@@ -26,7 +26,7 @@ main h1 {
     font-size: 6rem;
 
     margin-bottom: 10rem;
-    color: #47D691;
+    color: #77c5dd;
 }
 
 main p {
@@ -44,7 +44,7 @@ h3 {
 }
 
 main h3 strong {
-    color: #47D691;
+    color: #77c5dd;
 }
 
 a {
@@ -52,7 +52,7 @@ a {
     height: 6.4rem;
 
     border: none;
-    background: #47D691;
+    background: #77c5dd;
     border-radius: 1.6rem;
     cursor: pointer;
 
@@ -69,5 +69,5 @@ a {
 }
 
 a:hover {
-    background: #2baa6a;
+    background: #60b3cc;
 }
