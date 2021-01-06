@@ -1,5 +1,5 @@
 #page-landing {
-    background: #47D691;
+    background: #31829b;
 
     text-align: center;
     min-height: 100vh;
@@ -63,7 +63,7 @@ main h1 {
 @media (min-width: 861px) {
     #container {
         padding: 5rem 2rem;
-        background: url(../images/arvores.svg) no-repeat  89% 18% / clamp(15rem, 39vw, 49rem);
+        background: url(../images/garoto.svg) no-repeat  89% 18% / clamp(15rem, 39vw, 49rem);
         
     }
 
@@ -74,7 +74,7 @@ main h1 {
     }
 
     header a {
-        color: #D5EFC8;
+        color: #fcfcfc;
         font-weight: bold;
         line-height: 1.5;
 
